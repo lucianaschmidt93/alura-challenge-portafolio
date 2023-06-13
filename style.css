@@ -1,12 +1,9 @@
 /*CSS Reset / Normalize*/
 /* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
 en las secciones señaladas */
-/*Já deixaremos o básico de reset de estilos. Caso queira adicionar mais informações
-coloque nas sessões indicadas*/
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
 }
@@ -27,9 +24,9 @@ a{
     color: var(--cor-de-link);
 }
 
-/*En este desafío nosostros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
+/*En este desafío nosotros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
 
-Lo que es el BEM?
+Que es el BEM?
 
 BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
 desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
