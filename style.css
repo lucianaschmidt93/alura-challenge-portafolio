@@ -4,7 +4,7 @@ en las secciones señaladas */
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-   --cor-de-fondo: #F5F5F5;
+   --cor-de-fondo: #FBFCFC;
    --cor-de-link: #000;
 }
 
@@ -38,7 +38,7 @@ section.menu{
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    background: #f9f9f9de;
+    background: #F7DC6F;
 }
 
 .menu__title {
