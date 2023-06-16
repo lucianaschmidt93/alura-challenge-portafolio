@@ -39,7 +39,7 @@ section.menu{
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    background-image: url(assets/banner_color.jpg);
+    background: #f9f9f9;
 }
 
 .menu__title {
