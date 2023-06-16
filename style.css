@@ -16,6 +16,8 @@ body {
     padding: 0;
     line-height: 1;
 }
+
+
 ol, ul,li {
     list-style: none;
 }
@@ -24,65 +26,109 @@ a{
     color: var(--cor-de-link);
 }
 
-/*En este desafío nosotros gustaríamos que ustedes intentaran utilizar la metodología BEM. 
-
-Que es el BEM?
-
-BEM (Bloque, Elemento, Modificador) es un enfoque basado en componentes para el 
-desarrollo web. La idea detrás de esto es dividir la interfaz de usuario en bloques
-independientes. Esto hace que el desarrollo de la interfaz sea fácil y rápido, incluso
-con una interfaz de usuario compleja, y permite la reutilización del código existente sin copiar y pegar.
-
-Enlace de la documentación oficial!
-https://en.bem.info/methodology/quick-start/*/
-
 /*Sección Menu*/
 
 section.menu{
-    background-color: var(--cor-de-fondo: #F5F5F5);
-    
+    background-color: var(--cor-de-fondo #F5F5F5);
+    margin-bottom: 20px;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-image: url(assets/banner_color.jpg);
+}
+
+.menu__title {
+   margin-right: 325px;
+}
+
+nav a {
+    padding: 10px;
+}
+
+.menu__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 /*Sección Title*/
 
 section.title{
-
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 30px;
 }
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
 
 /*Sección About*/
 
 section.about{
+    text-align: left;
+}
 
+.about__paragraph{
+    text-align: justify;
+}
+
+/*Sección Skills*/
+section.skills{
+    margin: 2px;
+}
+
+.skills__title{
+    text-align: left;
+}
+
+.skills__box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*Sección Hobbies*/
 
 section.hobbies{
-    
+    text-align: left;
 }
+
 
 /* Experiencia Académica*/
 
 section.academic{
-
+    text-align: center;
 }
 
 /* experiencia*/
 
 section.experience{
-
+    text-align: center;
 }
 
 /*Contacto*/
 
 section.formcontato{
+    text-align: center;
 
 }
 
 /*footeer*/
 
 section.footer{
-   
+    text-align: center;
+
 }
 
 /* Vamos a desafiarnos trabajando con responsividad?
