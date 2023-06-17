@@ -62,6 +62,11 @@ nav a {
     text-decoration: underline;
 }
 
+.menu__list__item-resaltado {
+    color: black;
+    font-weight: bold;
+}
+
 
 /*Sección Title*/
 
