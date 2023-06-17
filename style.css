@@ -38,7 +38,7 @@ section.menu{
     justify-content: space-between;
     padding-left: 2rem;
     padding-right: 2rem;
-    background: #F7DC6F;
+    background: #EAECEE;
 }
 
 .menu__title {
@@ -50,11 +50,18 @@ nav a {
 }
 
 .menu__list{
-    list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
+    padding: 10px;
 }
+
+.menu__list__item {
+    list-style: none;
+}
+
+.menu__list__item:hover {
+    text-decoration: underline;
+}
+
 
 /*Sección Title*/
 
