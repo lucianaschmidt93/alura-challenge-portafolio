@@ -1,0 +1,7 @@
+section.title{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+    background: #EAECEE;
+}
