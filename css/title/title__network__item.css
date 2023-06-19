@@ -6,4 +6,5 @@
 
 .title__network__item:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
