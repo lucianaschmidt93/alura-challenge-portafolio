@@ -1,0 +1,146 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+   --cor-de-fondo: #FBFCFC;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fondo) ;
+    font-family: 'Quicksand';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sección Title*/
+
+section.title{
+    padding: 30px;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+/*Sección About*/
+
+section.about{
+    text-align: left;
+}
+
+.about__paragraph{
+    text-align: justify;
+}
+
+/*Sección Skills*/
+section.skills{
+    margin: 2px;
+}
+
+.skills__title{
+    text-align: left;
+}
+
+.skills__box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Sección Hobbies*/
+
+section.hobbies{
+    text-align: left;
+}
+
+
+/* Experiencia Académica*/
+
+section.academic{
+    text-align: center;
+}
+
+/* experiencia*/
+
+section.experience{
+    text-align: center;
+}
+
+/*Contacto*/
+
+section.formcontato{
+    text-align: center;
+
+}
+
+/*footeer*/
+
+section.footer{
+    text-align: center;
+
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
