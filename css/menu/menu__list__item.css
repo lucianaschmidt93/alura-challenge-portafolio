@@ -4,6 +4,7 @@
 
 .menu__list__item:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .menu__list__item-resaltado {
