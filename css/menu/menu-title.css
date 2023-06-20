@@ -1,3 +1,5 @@
-/*.menu__title {
-    margin-right: 325px;
- }*/
+.menu__title {
+    margin-right: 20rem;
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+ }
