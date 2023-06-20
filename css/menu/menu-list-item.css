@@ -1,5 +1,6 @@
-/*.menu__list__item {
+.menu__list__item {
     list-style: none;
+    margin-left: 1rem;
 }
 
 .menu__list__item:hover {
@@ -10,4 +11,4 @@
 .menu__list__item-resaltado {
     color: black;
     font-weight: bold;
-}*/
+}
