@@ -1,0 +1,10 @@
+.title__network__item {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+}
+
+.title__network__item:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
