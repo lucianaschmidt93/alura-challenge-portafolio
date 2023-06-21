@@ -1,8 +1,6 @@
 .title__subsection {
-    background-color: red;
+    margin-left: 2.3rem;
+    color: #181818;
+    font-size: 1.3rem;
+    text-align: justify;
 }
-    /*font-size: 20px;
-    justify-content: center;
-    margin-right: 60px;
-}
-/*
