@@ -1,7 +1,11 @@
 section.title{
-    display: flex;
+    background-color: pink;
+    
+}
+
+/* display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     text-align: center;
     background: #EAECEE;
-}
+*/
