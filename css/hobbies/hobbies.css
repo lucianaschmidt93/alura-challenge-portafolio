@@ -1,5 +1,4 @@
 section.hobbies{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5rem 0 0 5rem;
+    padding: 2rem;
+    background-color: #EAECEE;
 }
