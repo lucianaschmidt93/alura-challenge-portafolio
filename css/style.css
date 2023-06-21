@@ -29,7 +29,6 @@ a{
 /*Sección Hobbies*/
 
 section.hobbies{
-    background: #dab997;
     display: flex;
     flex-wrap: wrap;
     padding: 5rem 0 0 5rem;
