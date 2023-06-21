@@ -1,4 +1,34 @@
-.skills__img {
+.skills__img__html {
     height: 3rem;
-    align-items: center;
+    margin-left: 0.5rem;
+    background-position: center;
+}
+
+.skills__img__js {
+    height: 3rem;
+    margin-left: 1.6rem;
+    background-position: center;
+}
+
+.skills__img__css{
+    height: 3rem;
+    background-position: center;
+}
+
+.skills__img__uno {
+    height: 3rem;
+    margin-left: 1rem;
+    background-position: center;
+}
+
+.skills__img__companerismo {
+    height: 3rem;
+    margin-left: 2.6rem;
+    background-position: center;
+}
+
+.skills__img__dos {
+    height: 3rem;
+    margin-left: 2.5rem;
+    background-position: center;
 }
