@@ -25,67 +25,6 @@ a{
     text-decoration: none;
     color: var(--cor-de-link);
 }
-/*Sección Hard Skills*/
-section.hard__skills{
-    background: #dab997;
-}
-
-.hard__skills__title {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.hard__skills__line {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.hard__skills__box{
-    margin: 2rem;
-}
-
-.hard__skills__img {
-    height: 3rem;
-    align-items: center;
-}
-
-.hard__skills__name {
-    font-size: 1.1rem;
-    text-align: center;
-}
-
-/*Sección Soft Skills*/
-section.soft__skills{
-    background: #dab997;
-}
-
-.soft__skills__title {
-    text-align: center;
-    font-size: 1.5rem;
-}
-
-.soft__skills__line {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 2rem;
-}
-
-.soft__skills__box{
-    margin: 2rem;
-}
-
-.soft__skills__img {
-    height: 3rem;
-    
-}
-
-.soft__skills__name {
-    font-size: 1.1rem;
-    
-}
 
 /*Sección Hobbies*/
 
