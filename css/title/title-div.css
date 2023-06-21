@@ -1,6 +1,6 @@
-/*.title__div{
-    padding: 10px;
-    margin-right: 50px;
-    margin-left: 50px;
- }
- */
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: #FBFBFB;
+}

@@ -1,5 +1,4 @@
 .menu__list__item {
-    list-style: none;
     margin-left: 1rem;
 }
 
@@ -9,6 +8,6 @@
 }
 
 .menu__list__item-resaltado {
-    color: black;
+    color: #181818;
     font-weight: bold;
 }
