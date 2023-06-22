@@ -1,0 +1,18 @@
+.formcontato__botao{
+    width: 180px;
+    height: 60px;
+    border: 2px solid #dab99798;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor: pointer;
+    background-color: #dab997;
+    color: white;
+    font-family: "Quicksand";
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.formcontato__botao:hover {
+    transform: scale(1.2);
+    background: #dab997d1;
+}
