@@ -26,20 +26,6 @@ a{
     color: var(--cor-de-link);
 }
 
-/*Contacto*/
-
-section.formcontato{
-    text-align: center;
-
-}
-
-/*footeer*/
-
-section.footer{
-    text-align: center;
-
-}
-
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
