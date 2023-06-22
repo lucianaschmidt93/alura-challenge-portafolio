@@ -1,0 +1,11 @@
+.experience__botao--demo{
+    width: 170px;
+    height: 50px;
+    border: 1px solid #dab997;
+    border-radius: 24px;
+    cursor: pointer;
+    background-color: #dab997;
+    color: white;
+    font-family: "Quicksand";
+    font-size: 1rem;
+}
