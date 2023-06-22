@@ -3,9 +3,16 @@
     height: 50px;
     border: 1px solid #dab997;
     border-radius: 24px;
+    transition: 1s all;
     cursor: pointer;
     background-color: #dab997;
     color: white;
     font-family: "Quicksand";
     font-size: 1rem;
 }
+
+.experience__botao--demo:hover{
+    transform: scale(1.2);
+    background: #dab997d1;
+}
+
