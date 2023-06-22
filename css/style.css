@@ -4,7 +4,7 @@ en las secciones señaladas */
 
 :root{
     /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
-   --cor-de-fondo: #FBFCFC;
+   --cor-de-fondo: #EAECEE;
    --cor-de-link: #000;
 }
 
@@ -14,7 +14,7 @@ body {
     font-family: 'Quicksand';
     margin: 0;
     padding: 0;
-    line-height: 1;
+    line-height: 0;
 }
 
 
