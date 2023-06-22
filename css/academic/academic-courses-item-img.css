@@ -1,15 +1,4 @@
-.academic__courses__item__img1 {
-    margin-left: 25rem;
-}
-
-.academic__courses__item__img2 {
-    margin-left: 24rem;
-}
-
-.academic__courses__item__img3 {
-    margin-left: 21rem;
-}
-
-.academic__courses__item__img4 {
-    margin-left: 20rem;
+.academic__courses__item__img {
+    margin-left: 2px;
+    padding-left: 2px;
 }
