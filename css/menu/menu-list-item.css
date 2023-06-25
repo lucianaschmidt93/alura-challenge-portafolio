@@ -12,5 +12,15 @@
     font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+    .menu__list__item {
+      padding: 0rem;
+    }
+}
 
+@media screen and (max-width: 1024px) {
+    .menu__list__item {
+        margin-left: 5rem;
+    }
+}
   

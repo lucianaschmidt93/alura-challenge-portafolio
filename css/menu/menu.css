@@ -2,5 +2,19 @@ section.menu{
     background-color: #dab997;
     padding: 1rem;
     margin-bottom: 0.5rem;
+    display: flex;
 }
 
+@media screen and (max-width: 768px) {
+    .menu {
+      padding: 0rem;
+      margin: 0rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        padding: 0rem;
+        margin: 0rem;
+    }
+}

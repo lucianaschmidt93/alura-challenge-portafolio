@@ -5,3 +5,17 @@
     color: #313131;
  }
 
+ @media screen and (max-width: 768px) {
+    .menu__title {
+        margin-right: 9rem;
+        line-height: 1;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .menu__title {
+        margin-right: 10rem;
+        font-size: 1.24rem;
+    }
+}
