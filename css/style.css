@@ -8,14 +8,7 @@ en las secciones señaladas */
    --cor-de-link: #000;
 }
 
-body {
-    box-sizing: border-box;
-    background-color: var(--cor-de-fondo) ;
-    font-family: 'Quicksand';
-    margin: 0;
-    padding: 0;
-    line-height: 0;
-}
+
 
 
 ol, ul,li {
