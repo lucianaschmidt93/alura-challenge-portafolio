@@ -2,3 +2,14 @@
     padding: 1rem;
 }
 
+@media (max-width: 1024px) {
+    .skills__box {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills__box {
+        padding: 0.5rem;
+    }
+}
