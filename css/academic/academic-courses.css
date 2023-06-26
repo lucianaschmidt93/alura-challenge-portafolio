@@ -5,3 +5,22 @@
     justify-content: flex-end;
     align-items: baseline;
 }
+
+@media (max-width: 1024px) {
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
