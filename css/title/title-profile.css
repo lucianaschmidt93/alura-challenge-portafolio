@@ -7,12 +7,18 @@
 @media (max-width: 1024px) {
     .title__profile {
         height: 15rem;
+        margin-right: 8%;
+        position: relative;
+        padding: 0.5rem;
+        
     }
 }
 
 @media (max-width: 600px) {
     .title__profile {
         height: 10rem;
-        
+        margin-right: 10%;
+        position: relative;
+        padding: 0;
     }
 }
