@@ -8,3 +8,18 @@
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) {
+    .title__network__item {
+        font-size: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+@media (max-width: 600) {
+    .title__network__item {
+        font-size: 0.9rem;
+        padding-right: 1rem;
+    }
+}

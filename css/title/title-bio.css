@@ -1,5 +1,24 @@
 .title__bio {
     font-size: 2.5rem;
-    margin-right: 4rem;
+    margin-left: 2rem;
     color: #313131;
+}
+
+@media (max-width: 1024px) {
+    .title__bio {
+        font-size: 2rem;
+        margin-left: 0;
+        float: left;
+        line-height: 1;
+    }
+}
+
+
+@media (max-width: 600) {
+    .title__bio {
+        font-size: 1.5rem;
+        margin-left: 0;
+        float: left;
+        line-height: 1;
+    }
 }

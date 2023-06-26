@@ -3,3 +3,16 @@
     margin-right: 5%;
     padding: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .title__profile {
+        height: 15rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .title__profile {
+        height: 10rem;
+        
+    }
+}

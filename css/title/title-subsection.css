@@ -5,3 +5,19 @@
     text-align: justify;
     line-height: 1;
 }
+
+@media (max-width: 1024px) {
+    .title__subsection {
+        margin-left: 0;
+        float: left;
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .title__subsection {
+        margin-left: 0;
+        float: left;
+        font-size: 1rem;
+    }
+}

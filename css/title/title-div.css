@@ -4,3 +4,15 @@
     align-items: center;
     background-color: #EAECEE;
 }
+
+@media (max-width: 1024px) {
+    .title__div {
+        padding: 0.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .title__div {
+        display: block;
+    }
+}
