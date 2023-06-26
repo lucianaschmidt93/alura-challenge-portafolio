@@ -14,7 +14,8 @@
     .menu li:not(:last-child) {
       display: none;
     }
-}
+  }
+
 
 
  
