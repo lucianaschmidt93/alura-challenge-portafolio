@@ -7,7 +7,6 @@
 
 @media (max-width: 1024px) {
     .hobbies__line {
-        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -15,8 +14,6 @@
 
 @media (max-width: 600px) {
     .hobbies__line {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
 }

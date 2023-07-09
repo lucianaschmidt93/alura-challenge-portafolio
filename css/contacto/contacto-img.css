@@ -1,3 +1,16 @@
 .formcontato__img {
     position: relative;
 }
+
+@media (max-width: 1024px) {
+    .formcontato__img {
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .formcontato__img {
+        display: none;
+    }
+}

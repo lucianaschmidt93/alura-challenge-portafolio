@@ -4,3 +4,10 @@
     color: #313131;
     padding-top: 1rem;
 }
+
+
+@media (max-width: 600px) {
+    .academic__title {
+        line-height: 1;
+    }
+}

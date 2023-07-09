@@ -6,3 +6,18 @@
     text-align: left;
     padding: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .formcontato__contacto {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .formcontato__contacto {
+        flex-direction: column;
+        justify-content: left;
+    }
+}

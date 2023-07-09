@@ -3,3 +3,9 @@
     text-align: justify;
     color: #313131;
 }
+
+@media (max-width: 600px) {
+    .academic__courses__item__title {
+        line-height: 1;
+    }
+}

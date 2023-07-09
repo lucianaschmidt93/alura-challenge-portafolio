@@ -2,3 +2,18 @@
     margin-right: 3.8rem;
     padding: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .experience__img {
+        margin: 30px;
+        width: 65%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .experience__img {
+        margin: 20px;
+        width: 130%;
+    }
+}

@@ -5,3 +5,14 @@ section.menu{
     display: flex;
 }
 
+@media (max-width: 1024px) {
+    section.menu {
+        display: block;
+    }
+} 
+
+@media (max-width: 600px) {
+    section.menu {
+        display: block;
+    }
+}

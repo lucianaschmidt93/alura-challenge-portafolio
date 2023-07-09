@@ -16,3 +16,18 @@
     background: #dab997d1;
 }
 
+@media (max-width: 1024px) {
+    .experience__botao--demo {
+        width: 160px;
+        height: 50px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .experience__botao--demo {
+        width: 140px;
+        height: 50px;
+    }
+}
+

@@ -13,14 +13,14 @@
 }
 
 @media (max-width: 1024px) {
-    .menu__list__item-resaltado {
-       margin-left: 2rem;
+    nav {
+       margin: 0rem;
     }
 } 
 
 @media (max-width: 600px) {
-    .menu__list__item-resaltado {
-        margin-left: 4rem;
+    nav {
+        margin: 0rem;
 }
 }
 

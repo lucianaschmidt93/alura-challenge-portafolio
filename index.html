@@ -230,16 +230,16 @@
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
-                    <li class="academic__courses__item__img"><img src="assets/img_unlu.png"></li>
-                    <li class="academic__courses__item__title"><h4>Lic. en Administración</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2012 - UNLu</p></li>
+                    <li class="academic__courses__item__img"><img src="assets/img_una.jpg"></li>
+                    <li class="academic__courses__item__title"><h4>Lic. en Artes Audiovisuales</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2017 - UNA</p></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
-                    <li class="academic__courses__item__img"><img src="assets/img_una.jpg"></li>
-                    <li class="academic__courses__item__title"><h4>Lic. en Artes Audiovisuales</h4></li>
-                    <li class="academic__courses__item__subtitle"><p>2017 - UNA</p></li>
+                    <li class="academic__courses__item__img"><img src="assets/img_unlu.png"></li>
+                    <li class="academic__courses__item__title"><h4>Lic. en Administración</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>2012 - UNLu</p></li>
                 </ul>
             </div>
             <div class="academic__courses__box">
@@ -277,11 +277,11 @@
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Querés contactarme?</h3>
                     <h3 class="formcontato__subtext">Completá el siguiente formulario y me pondré en contacto lo antes posible. </h3>
-                    <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required maxlength="50">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required pattern=".+@globex\.com">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto" required maxlength="50">
-                        <textarea class="formcontato__textarea" rows="10" cols="80" id="mensagem" name="mensaje" placeholder="Mensaje" required maxlength="300"></textarea>
+                    <form class="formcontato__form" name="form" id="formulario" onsubmit="validarFormulario()">
+                        <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+                        <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required>
+                        <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Asunto" required>
+                        <textarea class="formcontato__textarea" rows="10" cols="80" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>

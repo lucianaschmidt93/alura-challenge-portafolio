@@ -3,3 +3,22 @@
     flex-direction: row;
     justify-content: flex-start;
 }
+
+@media (max-width: 1024px) {
+    .experiencie__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .experiencie__box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

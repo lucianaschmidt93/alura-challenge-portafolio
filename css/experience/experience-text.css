@@ -2,3 +2,16 @@
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
 }
+
+@media (max-width: 1024px) {
+    .experience__text {
+       font-size: 1.15rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .experience__text {
+        font-size: 1rem;
+    }
+}

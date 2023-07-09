@@ -1,3 +1,16 @@
 .experience__title {
     font-size: 1.5rem;
 }
+
+@media (max-width: 1024px) {
+    .experience__title {
+       font-size: 1.25rem;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .experience__title {
+        font-size: 1.15rem;
+    }
+}
