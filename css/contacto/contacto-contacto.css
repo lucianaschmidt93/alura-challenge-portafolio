@@ -9,15 +9,19 @@
 
 @media (max-width: 1024px) {
     .formcontato__contacto {
+        display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
 
 @media (max-width: 600px) {
     .formcontato__contacto {
+        display: flex;
         flex-direction: column;
-        justify-content: left;
+        justify-content: center;
+        align-items: center;
     }
 }

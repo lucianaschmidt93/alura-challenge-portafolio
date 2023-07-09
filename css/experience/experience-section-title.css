@@ -8,6 +8,7 @@
 @media (max-width: 1024px) {
     .experience__section__title {
         line-height: 1;
+        padding: 0;
     }
 }
 
@@ -15,5 +16,6 @@
 @media (max-width: 600px) {
     .experience__section__title {
         line-height: 1;
+        padding: 0;
     }
 }

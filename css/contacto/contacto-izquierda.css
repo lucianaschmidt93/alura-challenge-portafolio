@@ -1,3 +1,16 @@
 .formcontato--esquerda {
     padding: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .formcontato--esquerda {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .formcontato--esquerda {
+       padding: 0;
+    }
+}

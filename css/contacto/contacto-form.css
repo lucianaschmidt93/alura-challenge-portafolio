@@ -3,3 +3,16 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media (max-width: 1024px) {
+    .formcontato__form {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .formcontato__form {
+       width: 50%;
+    }
+}
