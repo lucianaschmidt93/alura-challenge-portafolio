@@ -6,5 +6,12 @@
     font-family: 'Quicksand';
     font-size: 1rem;
     border-radius: 5px;
+    width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .formcontato__textarea {
+       
+        justify-content: center;
+    }
+}

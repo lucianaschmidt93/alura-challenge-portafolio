@@ -4,13 +4,13 @@
 
 @media (max-width: 1024px) {
     .formcontato--esquerda {
-        padding: 0;
+        padding: 0rem;
     }
 }
 
 
 @media (max-width: 600px) {
     .formcontato--esquerda {
-       padding: 0;
+       padding: 0rem;
     }
 }

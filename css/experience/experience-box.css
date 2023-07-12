@@ -1,7 +1,7 @@
 .experiencie__box {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 @media (max-width: 1024px) {

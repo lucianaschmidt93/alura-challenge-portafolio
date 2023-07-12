@@ -7,18 +7,12 @@
 
 @media (max-width: 1024px) {
     .skills__line {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
+        flex-wrap: wrap;  
     }
 }
 
 @media (max-width: 600px) {
     .skills__line {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-       
+        flex-direction: column;
     }
 }
