@@ -2,17 +2,3 @@ section.hobbies{
     padding: 3rem;
     background-color: #EAECEE;
 }
-
-
-@media (max-width: 1024px) {
-    .hobbies {
-        padding: 1rem;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .hobbies {
-        padding: 1rem;
-    }
-}

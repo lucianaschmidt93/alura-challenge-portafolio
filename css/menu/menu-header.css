@@ -16,7 +16,6 @@
 @media (max-width: 600px) {
     .menu__header {
         flex-direction: column;
-        padding: 0;
     }
     .menu__img {
         display: none;

@@ -6,17 +6,3 @@ section.about{
 
     background-color: #eaecee15;
 }
-  
-@media (max-width: 1024px) {
-    .about {
-        padding: 0.5rem;
-        margin: 0.5rem;
-    }
-}
-
-@media (max-width: 600px) {
-    .about {
-        padding: 0.3rem;
-        margin: 0.5rem;
-    }
-}

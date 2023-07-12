@@ -4,18 +4,3 @@
     line-height: 1;
     background-color: #EAECEE;
 }
-
-@media (max-width: 1024px) {
-    .formcontato {
-        padding: 0rem;
-        margin: 0rem;
-    }
-}
-
-
-@media (max-width: 600px) {
-    .formcontato {
-       padding: 0rem;
-       margin: 0rem;
-    }
-}

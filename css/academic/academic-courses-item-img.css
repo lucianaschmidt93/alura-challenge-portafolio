@@ -6,14 +6,13 @@
 @media (max-width: 1024px) {
     .academic__courses__item__img {
         align-items: center;
- 
     }
 }
 
 
 @media (max-width: 600px) {
     .academic__courses__item__img {
-        margin-left: 3px;
-    
+        margin: auto;
+        padding: auto;
     }
 }
