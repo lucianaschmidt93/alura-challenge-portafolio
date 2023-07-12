@@ -7,12 +7,15 @@ section.menu{
 
 @media (max-width: 1024px) {
     section.menu {
-        display: block;
+        padding: 0.5rem;
+        margin-bottom: 0rem;
+
     }
 } 
 
 @media (max-width: 600px) {
     section.menu {
-        display: block;
+        padding: 0.5rem;
+        margin-bottom: 0rem;
     }
 }

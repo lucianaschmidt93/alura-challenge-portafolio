@@ -12,16 +12,22 @@
     font-weight: bold;
 }
 
-@media (max-width: 1024px) {
-    nav {
-       margin: 0rem;
+@media screen and (max-width: 1024px) {
+    .menu__list__item:not(:last-child) {
+        display: none;
     }
-} 
+  }
+    
+@media screen and (max-width: 600px) {
+    .menu__list__item:not(:last-child) {
+        display: none;
+    }
+    .menu__list__item {
+        margin-left: 5rem;
+    }
+  }
 
-@media (max-width: 600px) {
-    nav {
-        margin: 0rem;
-}
-}
 
+  
+  
   

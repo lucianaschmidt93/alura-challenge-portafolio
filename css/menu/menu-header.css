@@ -8,17 +8,22 @@
 
 @media (max-width: 1024px) {
     .menu__header {
-        padding-left: 0rem;
-        padding-right: 0rem;
+        align-items: baseline;
+        justify-content: center;
     }
 }
 
 @media (max-width: 600px) {
     .menu__header {
-        padding-left: 0rem;
-        padding-right: 0rem;
+        flex-direction: column;
+        padding: 0;
+    }
+    .menu__img {
+        display: none;
     }
 }
+
+
 
 
   
