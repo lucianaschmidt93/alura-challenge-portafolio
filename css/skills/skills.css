@@ -4,3 +4,12 @@ section.skills{
     color: #313131;
 }
 
+
+@media (max-width: 600px) {
+    .section.skills {
+        padding: 1px;
+        margin: 1px;
+    }
+}
+
+

@@ -6,14 +6,13 @@
 @media (max-width: 1024px) {
     .experience__img {
         margin-left: 3.8rem;
-        width: 53%;
+        width: 100%;
     }
 }
 
 
 @media (max-width: 600px) {
     .experience__img {
-        margin: 20px;
-        width: 130%;
+        width: 100%;
     }
 }

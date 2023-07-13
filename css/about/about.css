@@ -3,6 +3,12 @@ section.about{
     margin: 0 0.1rem 0 0.1rem;
     display: flex;
     justify-content: center;
-
     background-color: #eaecee15;
+}
+
+@media (max-width: 600px) {
+    .section.about {
+        padding: 1px;
+        margin: 1px;
+    }
 }

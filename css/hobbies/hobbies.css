@@ -2,3 +2,10 @@ section.hobbies{
     padding: 3rem;
     background-color: #EAECEE;
 }
+
+@media (max-width: 600px) {
+    .section.hobbies {
+        padding: 1px;
+        margin: 1px;
+    }
+}
