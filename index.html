@@ -276,13 +276,14 @@
                 <div class="formcontato__text">
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Querés contactarme?</h3>
-                    <h3 class="formcontato__subtext">Completá el siguiente formulario y me pondré en contacto lo antes posible. </h3>
-                    <form class="formcontato__form" name="form" id="formulario" onsubmit="validarFormulario()">
-                        <input class="formcontato__input" type="text" name="nombre" id="nombre" placeholder="Nombre" required>
-                        <input class="formcontato__input" type="email" name="email" id="email" placeholder="E-mail" required>
-                        <input class="formcontato__input" type="text" name="asunto" id="asunto" placeholder="Asunto" required>
-                        <textarea class="formcontato__textarea" rows="10" cols="80" id="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
-                        <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                    <h3 class="formcontato__subtext">Completá el siguiente formulario y me pondré en contacto lo antes posible.</h3>
+                    <form action="./formulario-enviado.html" class="formcontato__form" name="form" id="formulario">
+                            <input class="formcontato__input" name="name" id="nombre" type="text" placeholder="Nombre" required autocomplete="name">
+                            <input class="formcontato__input" name="email" id="email" type="email" placeholder="Email" required autocomplete="mail">
+                            <input class="formcontato__input" name="asunto" id="asunto" type="text" placeholder="Asunto" required autocomplete="asunto">
+                            <textarea class="formcontato__textarea" rows="10" cols="80" name="mensaje" id="mensaje"  placeholder="Mensaje" required></textarea>
+                            <button onclick="validarFormulario" class="formcontato__botao">Enviar mensaje</button>
+                            <span class="formcontato__span" id="demo"></span>
                     </form>
                 </div>
             </div>

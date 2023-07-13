@@ -1,43 +1,26 @@
 function validarFormulario() {
-    var nombre = document.forms["formulario"]["nombre"].value;
-    var email = document.forms["formulario"]["email"].value;
-    var asunto = document.forms["formulario"]["asunto"].value;
-    var mensaje = document.forms["formulario"]["mensaje"].value;
+  var nombre = document.getElementById("nombre").value;
+  var email = document.getElementById("email").value;
+  var asunto = document.getElementById("asunto").value;
+  var mensaje = document.getElementById("mensaje").value;
+  var expresion = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
-    var mensajesError = document.getElementsByClassName("error");
-        for (var i = 0; i < mensajesError.length; i++) {
-            mensajesError[i].style.display = "none";
-        }
+  if (nombre === "" || email === ""  || asunto === "" || mensaje === "") {
+    document.getElementById("demo").innerHTML = "Por favor, completá todos los campos";
+    return false;
+  }
+  else if (!expresion.test(email)) {
+    document.getElementById("demo").innerHTML = "Por favor, ingresá un correo electrónico válido";
+    return false;
+  }
+  else {
+    document.getElementById("demo").innerHTML = "";
+  }
+}
+  
+ 
 
-        if (nombre == "") {
-            mostrarError("nombre", "Por favor, ingresa tu nombre.");
-            return false;
-        }
-
-    var emailRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-        if (!emailRegex.test(email)) {
-            mostrarError("email", "Por favor, ingresa un correo electrónico válido.");
-            return false;
-        }
 
  
-        if (asunto == "") {
-            mostrarError("asunto", "Por favor, ingresa un asunto.");
-            return false;
-        }
 
-        if (mensaje == "") {
-            mostrarError("mensaje", "Por favor, ingresa un mensaje.");
-            return false;
-        }
-
-           
-}
-
-function mostrarError(campo, mensaje) {
-    var elementoCampo = document.getElementById(campo);
-    var mensajeError = document.createElement("span");
-        mensajeError.className = "error";
-        mensajeError.innerHTML = mensaje;
-        elementoCampo.parentNode.insertBefore(mensajeError, elementoCampo.nextSibling);
-}
+  
