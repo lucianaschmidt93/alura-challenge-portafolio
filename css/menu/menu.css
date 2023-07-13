@@ -2,3 +2,15 @@ section.menu{
     background-color: #dab997;
     padding: 1rem;
 }
+
+@media (max-width: 1024px) {
+    .section.menu {
+        padding-right: 0.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .section.menu {
+        padding-right: 0.5rem;
+    }
+} 

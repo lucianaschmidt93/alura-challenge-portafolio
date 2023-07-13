@@ -13,6 +13,7 @@
 @media (max-width: 600px) {
     .menu__title {
         line-height: 1;
+        margin-right: 1rem;
     }
 } 
 

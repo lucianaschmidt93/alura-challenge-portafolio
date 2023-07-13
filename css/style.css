@@ -1,15 +1,7 @@
-/*CSS Reset / Normalize*/
-/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
-en las secciones señaladas */
-
 :root{
-    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
    --cor-de-fondo: #EAECEE;
    --cor-de-link: #000;
 }
-
-
-
 
 ol, ul,li {
     list-style: none;
@@ -17,48 +9,4 @@ ol, ul,li {
 a{
     text-decoration: none;
     color: var(--cor-de-link);
-}
-
-/* Vamos a desafiarnos trabajando con responsividad?
-Utiliza las referencias de los breakpoints @media abajo */
-
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
-}
-
-/*Mobile*/
-@media (min-width: 425px) {
- 
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
 }

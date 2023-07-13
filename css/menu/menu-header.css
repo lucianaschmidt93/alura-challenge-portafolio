@@ -13,7 +13,10 @@
 
 @media (max-width: 600px) {
     .menu__header {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
     .menu__img {
         display: none;

@@ -22,10 +22,8 @@
     .menu__list__item:not(:last-child) {
         display: none;
     }
-    .menu__list__item {
-        margin-left: 5rem;
-    }
-  }
+ 
+}
 
 
   
