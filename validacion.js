@@ -1,22 +1,69 @@
-function validarFormulario() {
-  var nombre = document.getElementById("nombre").value;
-  var email = document.getElementById("email").value;
-  var asunto = document.getElementById("asunto").value;
-  var mensaje = document.getElementById("mensaje").value;
-  var expresion = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+// Obtener referencia al formulario y los campos de entrada
+const formulario = document.getElementById('formulario');
+const nombreInput = document.getElementById('nombre');
+const emailInput = document.getElementById('email');
+const asuntoInput = document.getElementById('asunto');
+const mensajeInput = document.getElementById('mensaje');
 
-  if (nombre === "" || email === ""  || asunto === "" || mensaje === "") {
-    document.getElementById("demo").innerHTML = "Por favor, completá todos los campos";
-    return false;
-  }
-  else if (!expresion.test(email)) {
-    document.getElementById("demo").innerHTML = "Por favor, ingresá un correo electrónico válido";
-    return false;
-  }
-  else {
-    document.getElementById("demo").innerHTML = "";
-  }
+// Funciones para mostrar y ocultar mensajes de error
+function mostrarError(elemento, mensaje) {
+  const errorSpan = elemento.nextElementSibling;
+  errorSpan.textContent = mensaje;
 }
+
+function ocultarError(elemento) {
+  const errorSpan = elemento.nextElementSibling;
+  errorSpan.textContent = '';
+}
+
+// Función para validar el formulario
+function validarFormulario(event) {
+  event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+
+  // Validar campo nombre
+  if (nombreInput.value.trim() === '' || nombreInput.value.length > 50) {
+    mostrarError(nombreInput, 'Por favor, ingresa un nombre válido (máximo 50 caracteres).');
+    return;
+  } else {
+    ocultarError(nombreInput);
+  }
+
+  // Validar campo email
+  const emailRegex = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/i;
+  if (emailInput.value.trim() === '' || !emailRegex.test(emailInput.value)) {
+    mostrarError(emailInput, 'Por favor, ingresa una dirección de correo electrónico válida.');
+    return;
+  } else {
+    ocultarError(emailInput);
+  }
+
+  // Validar campo asunto
+  if (asuntoInput.value.trim() === '' || asuntoInput.value.length > 50) {
+    mostrarError(asuntoInput, 'Por favor, ingresa un asunto válido (máximo 50 caracteres).');
+    return;
+  } else {
+    ocultarError(asuntoInput);
+  }
+
+  // Validar campo mensaje
+  if (mensajeInput.value.trim() === '' || mensajeInput.value.length > 300) {
+    mostrarError(mensajeInput, 'Por favor, ingresa un mensaje válido (máximo 300 caracteres).');
+    return;
+  } else {
+    ocultarError(mensajeInput);
+  }
+
+  // Si todas las validaciones pasan, enviar el formulario
+  formulario.submit();
+}
+
+// Agregar evento de escucha al botón de envío
+const enviarBoton = document.querySelector('.formcontato__botao');
+enviarBoton.addEventListener('click', validarFormulario);
+
+
+
+
   
  
 

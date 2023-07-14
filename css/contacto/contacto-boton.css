@@ -17,9 +17,6 @@
     background: #dab997d1;
 }
 
-.formcontato__span {
-    display: none;
-}
 
 @media (max-width: 1024px) {
     .formcontato__botao {
