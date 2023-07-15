@@ -279,10 +279,12 @@
                     <h3 class="formcontato__subtext">Completá el siguiente formulario y me pondré en contacto lo antes posible.</h3>
                     <form action="./formulario-enviado.html" class="formcontato__form" name="form" id="formulario">
                             <input class="formcontato__input" name="name" id="nombre" type="text" placeholder="Nombre"required autocomplete="name">
+                            <span></span>
                             <input class="formcontato__input" name="email" id="email" type="email" placeholder="Email">
                             <input class="formcontato__input" name="asunto" id="asunto" type="text" placeholder="Asunto" maxlength=50 required autocomplete="asunto">
                             <textarea class="formcontato__textarea" rows="10" cols="80" name="mensaje" id="mensaje"  placeholder="Mensaje" required></textarea>
                             <button onclick="validarFormulario" class="formcontato__botao">Enviar mensaje</button>
+                            <span class="formcontato__span" id="demo"></span>
                     </form>
                 </div>
             </div>
